@@ -1,0 +1,11 @@
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .fab {
+	font-size: 2rem;
+	margin: 10px 10px;
+	color: white;
+}

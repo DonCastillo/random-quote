@@ -1,0 +1,9 @@
+#socials #tweet-quote {
+	padding: 5px 10px;
+	display: block;
+	border-radius: 5px;
+}
+
+#socials .fa-twitter {
+	color: white;
+}

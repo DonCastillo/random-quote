@@ -1,0 +1,14 @@
+button {
+	border: 0;
+	font-size: 1.4rem;
+	color: white;
+	font-size: 18px;
+	padding: 0 15px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+button:active,
+button:focus {
+	outline: 0;
+}

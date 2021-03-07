@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "RobotoSlab";
+	src: url("./../assets/fonts/RobotoSlab-Regular.ttf") format("truetype");
+}
+
+#text {
+	font-size: 2rem;
+	line-height: 2.5rem;
+	font-family: RobotoSlab, sans-serif;
+	text-align: left;
+}
+
+.fas.fa-quote-left {
+	margin-right: 15px;
+}
