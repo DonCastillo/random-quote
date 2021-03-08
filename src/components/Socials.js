@@ -37,6 +37,7 @@ const Socials = (props) => {
 				target="_blank"
 				id="tweet-quote"
 				className="twitter-share-button"
+				rel="noreferrer"
 			>
 				<i className="fab fa-twitter"></i>
 			</a>
