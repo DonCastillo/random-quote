@@ -31,7 +31,6 @@ class App extends React.Component {
 			color: null,
 			quote: {}
 		};
-		this.background = React.createRef();
 	}
 
 	getRandomIndex = (length) => {
@@ -61,20 +60,9 @@ class App extends React.Component {
 			});
 	};
 
-	addFade = () => {
-		const el = this.background.current;
-		el.classList.add('fade-in')
-
-		const listener = el.addEventListener('animationend', () => {
-			el.classList.remove('fade-in')
-			el.removeEventListener('animationend', listener)
-		});
-	}
-
 	changeTheme = () => {
 		this.getRandomColor();
 		this.getRandomQuote();
-		this.addFade();
 	};
 
 	componentDidMount() {
@@ -88,7 +76,7 @@ class App extends React.Component {
 
 		return (	
 			<div className="App">
-				<div className="background" ref={this.background} style={style}></div>
+				<div className="background" style={style}></div>
 					<QuoteBox
 						quote={this.state.quote}
 						color={this.state.color}
