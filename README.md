@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 To view the live demo, go to [https://don-random-quote.netlify.app/](https://don-random-quote.netlify.app/)
 
-<img scr="screenshots/desktop.gif" />
+<img src="screenshots/desktop.gif" />
 
-<img scr="screenshots/mobile.gif" />
+<img src="screenshots/mobile.gif" />
 
